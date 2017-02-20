@@ -37,6 +37,6 @@ A elegant segment button framework.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit'
-  # s.dependency 'Masonry', '~> 1.0.2'
+   s.frameworks = 'UIKit'
+   s.dependency 'Masonry'
 end

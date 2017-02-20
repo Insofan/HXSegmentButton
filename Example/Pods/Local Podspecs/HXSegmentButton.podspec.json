@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HXSegmentButton/Classes/**/*"
+  "source_files": "HXSegmentButton/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }

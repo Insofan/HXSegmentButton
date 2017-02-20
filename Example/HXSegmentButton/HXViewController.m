@@ -8,7 +8,7 @@
 
 #import "HXViewController.h"
 #import <HXSegmentButton/HXSegmentButton.h>
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 @interface HXViewController ()
 @property (strong, nonatomic) HXSegmentButton *segmentControl;
 @property (strong, nonatomic) UILabel *label;

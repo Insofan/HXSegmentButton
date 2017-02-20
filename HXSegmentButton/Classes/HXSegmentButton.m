@@ -12,7 +12,7 @@
 #define SelectedColor [UIColor blueColor]
 #define ScreenWidth [[UIScreen mainScreen]  bounds].size.width
 #import "HXSegmentButton.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 @interface HXSegmentButton()
 @property (assign, nonatomic) NSUInteger currentIndex;
 @property (assign, nonatomic) NSUInteger number;
