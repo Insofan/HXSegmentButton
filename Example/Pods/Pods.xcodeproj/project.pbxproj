@@ -7,16 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0212A41D02268BC1730C415599EEFE99 /* Pods-HXSegmentButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26C7859574E154608A2733B338C69F /* Pods-HXSegmentButton_Tests-dummy.m */; };
 		0246344A46FD350674AD7E3DCBA4EB55 /* Pods-HXSegmentButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C030C3BDDBD531035E0BFCDAA39794F9 /* Pods-HXSegmentButton_Example-dummy.m */; };
-		02A5B1E3FD3604DB8E4423D051CDAA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		0B8B0F03EBD2DFD2B202973C5F43F792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		1F74ED991E672B2A657B4E7AD2C3DC4A /* HXSegmentButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B3ACF839B72CF49B1CE92F55CB648A /* HXSegmentButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		281D59EA6C49503776B5AE40047C2C4B /* HXSegmentButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269ADD0BCD0A4A358941A680E8F37397 /* HXSegmentButton-dummy.m */; };
+		02A5B1E3FD3604DB8E4423D051CDAA8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E5F590B6BAF17D2B2243F95CBE4FD5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 155FBAC9A10690336D64E9964B3F11AE /* ReplaceMe.m */; };
+		2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0E740483105429D8D32E74A7C35B53 /* Pods-HXSegmentButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E26C7859574E154608A2733B338C69F /* Pods-HXSegmentButton_Tests-dummy.m */; };
+		44166D33431D4DE008E7552C1AD239B5 /* HXSegmentButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B3ACF839B72CF49B1CE92F55CB648A /* HXSegmentButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		5F3C7A5EEE31763D425F76A4F3E6C6BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		6230C102162087640821ABDE5F0BC534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
 		78D0F5991F03A6D449C4A932E02097B2 /* Pods-HXSegmentButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5140D264767D97D41E72407E3C49E775 /* Pods-HXSegmentButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A157A2D9554C9D34A418194FDADB4F4E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFA9BFCCBB10F916A1AAEAC4EB655AC /* ReplaceMe.m */; };
-		C0BAC5F5BA6940E1232377F8F035F4F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		C34B064829C53E1BEBDACF1A473C1A0C /* Pods-HXSegmentButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF4BE06D11F735189373266E59379EA /* Pods-HXSegmentButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832B8347A8046A78145C3E5D372E3E1A /* HXSegmentButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269ADD0BCD0A4A358941A680E8F37397 /* HXSegmentButton-dummy.m */; };
+		88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
+		8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A8688C0072D3FB19FBA5183A2F6A8AF /* HXSegmentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7A95E722189EBAB725959DF2E0FD11 /* HXSegmentButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
+		A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		B3A736F70BBA6AD5966402A65F04C0F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD498FC9132C01D2920CA84A579BD599 /* HXSegmentButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD090B29291E4C021D695597BA568A32 /* HXSegmentButton.m */; };
+		C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E15BDDD995AD40BEECB9687B64263391 /* Pods-HXSegmentButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF4BE06D11F735189373266E59379EA /* Pods-HXSegmentButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		EBFBE7E96430B009A82BA0AEED86070D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,52 +55,94 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABF58EA38DDCC56197CDDBB41EC5D263;
+			remoteGlobalIDString = 227D6665E9A363B046C4A22E699287E8;
 			remoteInfo = HXSegmentButton;
+		};
+		C4CEC65F1783DFD89E247F209E41A492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D52144DE9D7255DE912490FF5A806573;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		0E163AD2A5E521A5594BB1A4E73A3A2E /* Pods-HXSegmentButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXSegmentButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0E26C7859574E154608A2733B338C69F /* Pods-HXSegmentButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXSegmentButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		155FBAC9A10690336D64E9964B3F11AE /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		19904F9EDC6332007912C6D6997DB1AD /* Pods-HXSegmentButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXSegmentButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		203C86A69EF60A8734202876DC4B0874 /* Pods-HXSegmentButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXSegmentButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		269ADD0BCD0A4A358941A680E8F37397 /* HXSegmentButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HXSegmentButton-dummy.m"; sourceTree = "<group>"; };
 		2926B37C23FBE37BABE4FDB625129217 /* Pods-HXSegmentButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXSegmentButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		35F7C71D49EFACE08E6ADE38C45F4B9E /* Pods-HXSegmentButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXSegmentButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		392280D22601BAF908D5098B2D486AA7 /* Pods-HXSegmentButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXSegmentButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		398E4F20FAE4D846ED11F4C0677E535B /* Pods_HXSegmentButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXSegmentButton_Example.framework; path = "Pods-HXSegmentButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C06DE33783F4AFB69A36024D0774A9B /* Pods-HXSegmentButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXSegmentButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4ADF43E174AF01E9CD28C2315DEC3577 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5140D264767D97D41E72407E3C49E775 /* Pods-HXSegmentButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXSegmentButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		54729C2E046A6110821B202FF51E5092 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E69CF975508AE16A827DF9F7249D75 /* Pods-HXSegmentButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HXSegmentButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5920C2D8F213AE6A7972D251860006A9 /* HXSegmentButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXSegmentButton.xcconfig; sourceTree = "<group>"; };
-		5CFA9BFCCBB10F916A1AAEAC4EB655AC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		5DF4BE06D11F735189373266E59379EA /* Pods-HXSegmentButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXSegmentButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5E6814614932361603A5A6C5452BB669 /* Pods_HXSegmentButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXSegmentButton_Example.framework; path = "Pods-HXSegmentButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		67E2213F84B27EE7870CB805D59B5737 /* Pods-HXSegmentButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HXSegmentButton_Example.modulemap"; sourceTree = "<group>"; };
+		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80F99E1D48F33DEC9144F7E29A44E58A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A8C304DED80E7633351A24699D0CC0E /* HXSegmentButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HXSegmentButton.framework; path = HXSegmentButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		813C4D4DEB086E9612FAF35D84BB7A84 /* HXSegmentButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HXSegmentButton.framework; path = HXSegmentButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9318298227825912EA03940DE7E36440 /* Pods-HXSegmentButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HXSegmentButton_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		A0F64F3A1A0B240FEB765A3B6FF7623E /* Pods-HXSegmentButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXSegmentButton_Example-resources.sh"; sourceTree = "<group>"; };
+		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		B15D73B4C997537FAAB47E4D292F7616 /* HXSegmentButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXSegmentButton-prefix.pch"; sourceTree = "<group>"; };
+		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		BA5B28EA5088915247A12A8E8B965E19 /* Pods-HXSegmentButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXSegmentButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C030C3BDDBD531035E0BFCDAA39794F9 /* Pods-HXSegmentButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXSegmentButton_Example-dummy.m"; sourceTree = "<group>"; };
 		C1B3ACF839B72CF49B1CE92F55CB648A /* HXSegmentButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HXSegmentButton-umbrella.h"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		D059B6E50BAB4B7F7150E978FB6CD1FB /* HXSegmentButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HXSegmentButton.modulemap; sourceTree = "<group>"; };
-		D1933932C63BB79DA21EE9EB7E388FDE /* Pods_HXSegmentButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXSegmentButton_Tests.framework; path = "Pods-HXSegmentButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BFA72775C092F47DA1E3D63E8ABF1D /* Pods_HXSegmentButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HXSegmentButton_Tests.framework; path = "Pods-HXSegmentButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC747087917E916585AD6B5EA218F823 /* Pods-HXSegmentButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HXSegmentButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD090B29291E4C021D695597BA568A32 /* HXSegmentButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HXSegmentButton.m; sourceTree = "<group>"; };
 		E03B3249D19C050FB703846881444BAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		ED7A95E722189EBAB725959DF2E0FD11 /* HXSegmentButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HXSegmentButton.h; sourceTree = "<group>"; };
+		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		FA36C087A653893C42B840D9853F36F8 /* Pods-HXSegmentButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HXSegmentButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63A1333D55E5EF04ED301929CCDE4CAD /* Frameworks */ = {
+		4EDDB471D2C68BF7D1EBB518F735FF95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8B0F03EBD2DFD2B202973C5F43F792 /* Foundation.framework in Frameworks */,
+				EBFBE7E96430B009A82BA0AEED86070D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,17 +154,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73640CB8588391C7CE2C5001AFF921F1 /* Frameworks */ = {
+		F10169FA3BF2CA4E761875DD0FC54963 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BAC5F5BA6940E1232377F8F035F4F8 /* Foundation.framework in Frameworks */,
+				B3A736F70BBA6AD5966402A65F04C0F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3C7A5EEE31763D425F76A4F3E6C6BD /* Foundation.framework in Frameworks */,
+				6230C102162087640821ABDE5F0BC534 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0715ABCB3F86982B05885E162923C121 /* HXSegmentButton */ = {
+			isa = PBXGroup;
+			children = (
+				0EA9F08B1C4F89CB0945FE7321FFF42B /* Classes */,
+			);
+			name = HXSegmentButton;
+			path = HXSegmentButton;
+			sourceTree = "<group>";
+		};
+		0EA9F08B1C4F89CB0945FE7321FFF42B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED7A95E722189EBAB725959DF2E0FD11 /* HXSegmentButton.h */,
+				DD090B29291E4C021D695597BA568A32 /* HXSegmentButton.m */,
+				155FBAC9A10690336D64E9964B3F11AE /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		188BA9F0AA2BEA0DE461157D1177C378 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +216,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		635C5F4920AA20A1CD85702F6F5498A5 /* Pods-HXSegmentButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,21 +242,15 @@
 			path = "Target Support Files/Pods-HXSegmentButton_Tests";
 			sourceTree = "<group>";
 		};
-		66F728FFC747C7FDC7E50DEA3C0928B0 /* HXSegmentButton */ = {
+		7CBDBEEAADFBC9880CEF489D3124E096 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C515D197404F7FA9A1DDCBADFD635577 /* Classes */,
+				813C4D4DEB086E9612FAF35D84BB7A84 /* HXSegmentButton.framework */,
+				54729C2E046A6110821B202FF51E5092 /* Masonry.framework */,
+				398E4F20FAE4D846ED11F4C0677E535B /* Pods_HXSegmentButton_Example.framework */,
+				D8BFA72775C092F47DA1E3D63E8ABF1D /* Pods_HXSegmentButton_Tests.framework */,
 			);
-			name = HXSegmentButton;
-			path = HXSegmentButton;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -154,8 +258,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				3C8D1BCA04C9400B03E0CDF1B43DC969 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BE7AB445D091CD68C2FE4CF72474117A /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
+				7CBDBEEAADFBC9880CEF489D3124E096 /* Products */,
 				A0DA68E02DC6F0C683BA7A240F444D9C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -163,7 +268,7 @@
 		8D75609E53B2F2091F3650A652F8685B /* HXSegmentButton */ = {
 			isa = PBXGroup;
 			children = (
-				66F728FFC747C7FDC7E50DEA3C0928B0 /* HXSegmentButton */,
+				0715ABCB3F86982B05885E162923C121 /* HXSegmentButton */,
 				188BA9F0AA2BEA0DE461157D1177C378 /* Support Files */,
 			);
 			name = HXSegmentButton;
@@ -179,22 +284,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
+				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
+				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
+				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
+				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
+				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
+				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
+				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
+				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
+				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
+				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
+				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
+				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
+				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
+				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
+				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
+				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
+				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
+				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
+				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
+				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
+				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
+				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
+				AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */,
 			);
-			name = Frameworks;
+			name = Masonry;
+			path = Masonry;
 			sourceTree = "<group>";
 		};
-		BE7AB445D091CD68C2FE4CF72474117A /* Products */ = {
+		AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8A8C304DED80E7633351A24699D0CC0E /* HXSegmentButton.framework */,
-				5E6814614932361603A5A6C5452BB669 /* Pods_HXSegmentButton_Example.framework */,
-				D1933932C63BB79DA21EE9EB7E388FDE /* Pods_HXSegmentButton_Tests.framework */,
+				7F44A621BE24B87AEF75DD7193846188 /* Info.plist */,
+				3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */,
+				61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */,
+				FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */,
+				CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */,
+				13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
 		C17E1E48E2542C4054B333E7A3572902 /* Pods-HXSegmentButton_Example */ = {
@@ -215,13 +350,21 @@
 			path = "Target Support Files/Pods-HXSegmentButton_Example";
 			sourceTree = "<group>";
 		};
-		C515D197404F7FA9A1DDCBADFD635577 /* Classes */ = {
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5CFA9BFCCBB10F916A1AAEAC4EB655AC /* ReplaceMe.m */,
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
 			);
-			name = Classes;
-			path = Classes;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,25 +378,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DD76DEFDC705344DC5DEB4E2C001ED1 /* Headers */ = {
+		5159F7A32BF8DBD852CBCAE822199C84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F74ED991E672B2A657B4E7AD2C3DC4A /* HXSegmentButton-umbrella.h in Headers */,
+				E15BDDD995AD40BEECB9687B64263391 /* Pods-HXSegmentButton_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0DF35B7DA22AA02D845943CA72454A7 /* Headers */ = {
+		F3E9930C736C01D12F5733EFD1F0A948 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C34B064829C53E1BEBDACF1A473C1A0C /* Pods-HXSegmentButton_Tests-umbrella.h in Headers */,
+				8CD45B754192DE834B642975E85257AB /* MASCompositeConstraint.h in Headers */,
+				4D4F2050654580FE1F1D5F4F82CEDDB8 /* MASConstraint+Private.h in Headers */,
+				C8DF22EAFFC2F81B0426E2165AC93E44 /* MASConstraint.h in Headers */,
+				88DE7BAB1F4999A5F4B617F44E5FD1D3 /* MASConstraintMaker.h in Headers */,
+				7C17BEA6034027310D1D205DB2008CA5 /* MASLayoutConstraint.h in Headers */,
+				457ACF9150DCF9AF445B129CC9678FB6 /* Masonry-umbrella.h in Headers */,
+				CC8F9B4A1AC4E276EA8AA4C6F2BF3CD4 /* Masonry.h in Headers */,
+				04A7D6AADAB213CE7D26F8EAD2F87536 /* MASUtilities.h in Headers */,
+				636BBA734C1A17A734761D674FAE8800 /* MASViewAttribute.h in Headers */,
+				091D17D5D8F832D28546A72B788CF0AE /* MASViewConstraint.h in Headers */,
+				C0A16E00B4BC2D88A7833D5DAED62942 /* NSArray+MASAdditions.h in Headers */,
+				D8B1525CB3DFCBD8E5032680530413D9 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0FDB2B4F75591851F0F119EAE70B3F63 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				068EF598E554EC57038ACFB89CC2C47A /* View+MASAdditions.h in Headers */,
+				B44383A3FA435C1E986942C817339302 /* View+MASShorthandAdditions.h in Headers */,
+				2854C9B1086758BD2B6681206B6759B4 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E99E2484BF5512EB67E1B6993A434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44166D33431D4DE008E7552C1AD239B5 /* HXSegmentButton-umbrella.h in Headers */,
+				9A8688C0072D3FB19FBA5183A2F6A8AF /* HXSegmentButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		227D6665E9A363B046C4A22E699287E8 /* HXSegmentButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA0F75853FAC9981915C6CDBED9F1D3 /* Build configuration list for PBXNativeTarget "HXSegmentButton" */;
+			buildPhases = (
+				9293C4A7069EBF0BE43F29487D0F2359 /* Sources */,
+				4EDDB471D2C68BF7D1EBB518F735FF95 /* Frameworks */,
+				FA3E99E2484BF5512EB67E1B6993A434 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXSegmentButton;
+			productName = HXSegmentButton;
+			productReference = 813C4D4DEB086E9612FAF35D84BB7A84 /* HXSegmentButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E6FC3628E05F1ABDAB00561788E47C0 /* Pods-HXSegmentButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA72241906B0816DEDF3B8D701818C5 /* Build configuration list for PBXNativeTarget "Pods-HXSegmentButton_Tests" */;
+			buildPhases = (
+				21790D04D7EFFB5AE127E0D18EF88A97 /* Sources */,
+				F10169FA3BF2CA4E761875DD0FC54963 /* Frameworks */,
+				5159F7A32BF8DBD852CBCAE822199C84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44F68C78FB244F1192A4CA612C3E1AE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-HXSegmentButton_Tests";
+			productName = "Pods-HXSegmentButton_Tests";
+			productReference = D8BFA72775C092F47DA1E3D63E8ABF1D /* Pods_HXSegmentButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8CD2F22D9D097DAD7667DAE5194DC1B6 /* Pods-HXSegmentButton_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E9DA3BF06133AAFDA9F3F8F8B0C20E8 /* Build configuration list for PBXNativeTarget "Pods-HXSegmentButton_Example" */;
@@ -269,41 +471,24 @@
 			);
 			name = "Pods-HXSegmentButton_Example";
 			productName = "Pods-HXSegmentButton_Example";
-			productReference = 5E6814614932361603A5A6C5452BB669 /* Pods_HXSegmentButton_Example.framework */;
+			productReference = 398E4F20FAE4D846ED11F4C0677E535B /* Pods_HXSegmentButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8CFAA31828D854685B8FFE368D2BF670 /* Pods-HXSegmentButton_Tests */ = {
+		D52144DE9D7255DE912490FF5A806573 /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C627F29168D979557FBF3EC44D475E80 /* Build configuration list for PBXNativeTarget "Pods-HXSegmentButton_Tests" */;
+			buildConfigurationList = 02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				525BCA25C3F12EA82BAB47B842EA25FE /* Sources */,
-				73640CB8588391C7CE2C5001AFF921F1 /* Frameworks */,
-				D0DF35B7DA22AA02D845943CA72454A7 /* Headers */,
+				00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */,
+				F6EC657AC5A7BEE9A3D288B582F4C5E9 /* Frameworks */,
+				F3E9930C736C01D12F5733EFD1F0A948 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-HXSegmentButton_Tests";
-			productName = "Pods-HXSegmentButton_Tests";
-			productReference = D1933932C63BB79DA21EE9EB7E388FDE /* Pods_HXSegmentButton_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ABF58EA38DDCC56197CDDBB41EC5D263 /* HXSegmentButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5FD927659273FE488843846B8AEB299D /* Build configuration list for PBXNativeTarget "HXSegmentButton" */;
-			buildPhases = (
-				08CC464E2F15802B442F5711997E2FE8 /* Sources */,
-				63A1333D55E5EF04ED301929CCDE4CAD /* Frameworks */,
-				9DD76DEFDC705344DC5DEB4E2C001ED1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HXSegmentButton;
-			productName = HXSegmentButton;
-			productReference = 8A8C304DED80E7633351A24699D0CC0E /* HXSegmentButton.framework */;
+			name = Masonry;
+			productName = Masonry;
+			productReference = 54729C2E046A6110821B202FF51E5092 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -323,32 +508,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BE7AB445D091CD68C2FE4CF72474117A /* Products */;
+			productRefGroup = 7CBDBEEAADFBC9880CEF489D3124E096 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABF58EA38DDCC56197CDDBB41EC5D263 /* HXSegmentButton */,
+				227D6665E9A363B046C4A22E699287E8 /* HXSegmentButton */,
+				D52144DE9D7255DE912490FF5A806573 /* Masonry */,
 				8CD2F22D9D097DAD7667DAE5194DC1B6 /* Pods-HXSegmentButton_Example */,
-				8CFAA31828D854685B8FFE368D2BF670 /* Pods-HXSegmentButton_Tests */,
+				5E6FC3628E05F1ABDAB00561788E47C0 /* Pods-HXSegmentButton_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08CC464E2F15802B442F5711997E2FE8 /* Sources */ = {
+		00A62ED60FF8A98AB74C8F2CECD850BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281D59EA6C49503776B5AE40047C2C4B /* HXSegmentButton-dummy.m in Sources */,
-				A157A2D9554C9D34A418194FDADB4F4E /* ReplaceMe.m in Sources */,
+				53BDF81D0A52EA526D597A5C5B139D7F /* MASCompositeConstraint.m in Sources */,
+				59F81DE0305CC2AC448D2A3C6B3280A2 /* MASConstraint.m in Sources */,
+				73BBDACC22CCA36A6DAAA167AD780BAF /* MASConstraintMaker.m in Sources */,
+				6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */,
+				A08A8AB356264E248D01F1BC0EF08166 /* Masonry-dummy.m in Sources */,
+				A7370CE9231F9A4927142D79021879EC /* MASViewAttribute.m in Sources */,
+				756DF24546C7D91459DCADC8F1C98660 /* MASViewConstraint.m in Sources */,
+				E72EDE323AC9F92EC8A00A93AC186093 /* NSArray+MASAdditions.m in Sources */,
+				0F3DF5C3BEFCC9838B53C37735B414BE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F4B3E44D5D2F6508BC1BB35A9FBDEC70 /* View+MASAdditions.m in Sources */,
+				8A6EEF68E7625AB66A3A8DED1594F88F /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		525BCA25C3F12EA82BAB47B842EA25FE /* Sources */ = {
+		21790D04D7EFFB5AE127E0D18EF88A97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0212A41D02268BC1730C415599EEFE99 /* Pods-HXSegmentButton_Tests-dummy.m in Sources */,
+				2F0E740483105429D8D32E74A7C35B53 /* Pods-HXSegmentButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,27 +555,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9293C4A7069EBF0BE43F29487D0F2359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832B8347A8046A78145C3E5D372E3E1A /* HXSegmentButton-dummy.m in Sources */,
+				BD498FC9132C01D2920CA84A579BD599 /* HXSegmentButton.m in Sources */,
+				10E5F590B6BAF17D2B2243F95CBE4FD5 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		44F68C78FB244F1192A4CA612C3E1AE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = D52144DE9D7255DE912490FF5A806573 /* Masonry */;
+			targetProxy = C4CEC65F1783DFD89E247F209E41A492 /* PBXContainerItemProxy */;
+		};
 		DA453BA4449314BBEF1C553BCE753C3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HXSegmentButton;
-			target = ABF58EA38DDCC56197CDDBB41EC5D263 /* HXSegmentButton */;
+			target = 227D6665E9A363B046C4A22E699287E8 /* HXSegmentButton */;
 			targetProxy = 5505B55EC4AB91BB10364B70A7789FD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		62F9487465DDF9B6DA2850E5FA780FB6 /* Release */ = {
+		3E499CEFD3511D0B9A8F1C42CE05006E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54E69CF975508AE16A827DF9F7249D75 /* Pods-HXSegmentButton_Tests.release.xcconfig */;
+			baseConfigurationReference = 2926B37C23FBE37BABE4FDB625129217 /* Pods-HXSegmentButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -393,12 +604,43 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HXSegmentButton_Tests/Pods-HXSegmentButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_HXSegmentButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50315BE9DECB49AA0772C486AAD9C602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5920C2D8F213AE6A7972D251860006A9 /* HXSegmentButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HXSegmentButton/HXSegmentButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXSegmentButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXSegmentButton/HXSegmentButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HXSegmentButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,6 +684,68 @@
 			};
 			name = Debug;
 		};
+		6ED888C8034DE47E40A1A99825BD99AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5920C2D8F213AE6A7972D251860006A9 /* HXSegmentButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HXSegmentButton/HXSegmentButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HXSegmentButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HXSegmentButton/HXSegmentButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HXSegmentButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CC747A8B09F50D8EA3191B7C5EDD18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,37 +783,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		954DF7DBA9587652A052CFA095721A1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5920C2D8F213AE6A7972D251860006A9 /* HXSegmentButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HXSegmentButton/HXSegmentButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HXSegmentButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HXSegmentButton/HXSegmentButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HXSegmentButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -592,46 +865,15 @@
 			};
 			name = Release;
 		};
-		D3E6D89414C85339B04B59947F57F3EB /* Debug */ = {
+		D1074B1C4E863EA5F99116D5EE36B353 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5920C2D8F213AE6A7972D251860006A9 /* HXSegmentButton.xcconfig */;
+			baseConfigurationReference = 54E69CF975508AE16A827DF9F7249D75 /* Pods-HXSegmentButton_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HXSegmentButton/HXSegmentButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HXSegmentButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HXSegmentButton/HXSegmentButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HXSegmentButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D5E1BC84AF5E52054CA4C463A4595B80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2926B37C23FBE37BABE4FDB625129217 /* Pods-HXSegmentButton_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -644,7 +886,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HXSegmentButton_Tests/Pods-HXSegmentButton_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -656,11 +898,60 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Release;
+		};
+		DDBED416AF7EF4E0711DC078BAC8DC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02D024184BD368B565F3B6257DF3C605 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBED416AF7EF4E0711DC078BAC8DC3E /* Debug */,
+				7CC747A8B09F50D8EA3191B7C5EDD18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA72241906B0816DEDF3B8D701818C5 /* Build configuration list for PBXNativeTarget "Pods-HXSegmentButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E499CEFD3511D0B9A8F1C42CE05006E /* Debug */,
+				D1074B1C4E863EA5F99116D5EE36B353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -670,11 +961,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FD927659273FE488843846B8AEB299D /* Build configuration list for PBXNativeTarget "HXSegmentButton" */ = {
+		4FA0F75853FAC9981915C6CDBED9F1D3 /* Build configuration list for PBXNativeTarget "HXSegmentButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E6D89414C85339B04B59947F57F3EB /* Debug */,
-				954DF7DBA9587652A052CFA095721A1A /* Release */,
+				6ED888C8034DE47E40A1A99825BD99AD /* Debug */,
+				50315BE9DECB49AA0772C486AAD9C602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -684,15 +975,6 @@
 			buildConfigurations = (
 				6DC7DB60F5F1389E059E203AB79BCFE3 /* Debug */,
 				A8053623B25BF6CC36DFE23E7DE08845 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C627F29168D979557FBF3EC44D475E80 /* Build configuration list for PBXNativeTarget "Pods-HXSegmentButton_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5E1BC84AF5E52054CA4C463A4595B80 /* Debug */,
-				62F9487465DDF9B6DA2850E5FA780FB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

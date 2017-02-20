@@ -7,12 +7,18 @@
 //
 
 #import "HXAppDelegate.h"
-
+#import "HXViewController.h"
 @implementation HXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Override point for customization after application launch.
+    HXViewController *vc = [HXViewController new];
+    self.window                    = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor    = [UIColor greenColor];
     return YES;
 }
 

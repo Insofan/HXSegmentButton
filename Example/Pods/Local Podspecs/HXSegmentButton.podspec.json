@@ -1,8 +1,8 @@
 {
   "name": "HXSegmentButton",
   "version": "0.1.0",
-  "summary": "A short description of HXSegmentButton.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A elegant segment button framework.",
+  "description": "A elegant segment button framework.",
   "homepage": "https://github.com/Insofan/HXSegmentButton",
   "license": {
     "type": "MIT",

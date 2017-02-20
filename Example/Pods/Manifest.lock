@@ -1,16 +1,19 @@
 PODS:
   - HXSegmentButton (0.1.0)
+  - Masonry (1.0.2)
 
 DEPENDENCIES:
   - HXSegmentButton (from `../`)
+  - Masonry
 
 EXTERNAL SOURCES:
   HXSegmentButton:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HXSegmentButton: 965cfc44fdb802c53bfaffcf377a5f211fb626ab
+  HXSegmentButton: 2f2362f76577d3dbc0585091ca3a5e1cac8f13d0
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: 02bca9575a32e11bdf365b591615dd351e951b54
+PODFILE CHECKSUM: fc631ff637b3d6206cf6b0a59c706c7de87d25e0
 
 COCOAPODS: 1.2.0.beta.1
