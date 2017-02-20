@@ -22,7 +22,7 @@ pod "HXSegmentButton"
 
 ## Author
 
-Insofan, 282132315@qq.com
+Insofan, insofan3156@gmail.com
 
 ## License
 
