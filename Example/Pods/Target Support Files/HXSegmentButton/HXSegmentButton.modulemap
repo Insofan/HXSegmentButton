@@ -1,0 +1,6 @@
+framework module HXSegmentButton {
+  umbrella header "HXSegmentButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

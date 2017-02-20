@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXSegmentButton_Example' do
+  pod 'HXSegmentButton', :path => '../'
+
+  target 'HXSegmentButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
