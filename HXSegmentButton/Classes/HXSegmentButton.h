@@ -27,4 +27,6 @@ typedef  void (^ButtonCallBackBlock)(NSUInteger current);
 - (void)setupButtonsNormalColor:(UIColor *)normalColor selectedColor:(UIColor *)selectedColor ;
 //Setup Background Color
 - (void)setupBackgroundNormalColor:(UIColor *)normalColor selectedColor:(UIColor *)selectedColor underLineColor:(UIColor *)underLineColor;
+//Setup UnderLine Animation
+- (void)setupUnderLineAnimation;
 @end

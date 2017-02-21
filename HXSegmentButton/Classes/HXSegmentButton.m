@@ -36,7 +36,7 @@
         self.number = titles.count;
         //Lazy button
         [self setupAllButtonsWithTitles:titles width:width];
-        self.backgroundColor = [UIColor blueColor];
+        self.backgroundColor = self.buttonNormalColor;
         //Set UnderLine
         UIView  *underLine = [[UIView alloc] init];
         [self addSubview:underLine];
@@ -173,6 +173,16 @@
     self.underLineColor = underLineColor;
 }
 
+//Setup UnderLine Animation
+- (void)setupUnderLineAnimation{
+    [UIView animateWithDuration:0.3 animations:^{
+        [self.underLine mas_updateConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(self.mas_left).offset(_currentIndex*self.selfWidth/self.number);
+        }];
+        [self layoutIfNeeded];
+    }];
+}
+
 //Click button
 - (void)buttonClickWith:(UIButton *)button {
     [self initButtonTagWith:button.tag];
@@ -292,12 +302,6 @@
         _headerIndexBlock(_currentIndex);
     }
     
-    [UIView animateWithDuration:0.3 animations:^{
-        [self.underLine mas_updateConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(self.mas_left).offset(_currentIndex*self.selfWidth/self.number);
-        }];
-        [self layoutIfNeeded];
-    }];
 }
 
 - (void)returnHeaderIndex:(ButtonCallBackBlock)block {
